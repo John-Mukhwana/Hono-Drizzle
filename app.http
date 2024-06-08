@@ -1,0 +1,18 @@
+
+GET http://localhost:8000/ok
+
+###
+
+GET http://localhost:8000/api/users/1
+
+###
+POST http://localhost:8000/api/users
+Content-Type: application/json
+
+{  
+    
+     "id":3,
+    "name": "ken Doe",
+    "email": "kevin@gmail.com"
+        
+}
